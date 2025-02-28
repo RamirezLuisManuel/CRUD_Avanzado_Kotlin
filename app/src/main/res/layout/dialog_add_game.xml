@@ -1,0 +1,46 @@
+<!-- res/layout/dialog_add_game.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:hint="Nombre del juego"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etDesc"
+        android:hint="Descripción"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etAnio"
+        android:hint="Año de lanzamiento"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:hint="Precio"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etQualifi"
+        android:hint="Calificación"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etImgURL"
+        android:hint="URL de la imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

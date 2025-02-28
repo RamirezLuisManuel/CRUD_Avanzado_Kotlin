@@ -1,0 +1,21 @@
+<!-- res/menu/menu_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:title="Buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/action_agr"
+        android:title="Agregar"
+        android:icon="@android:drawable/ic_menu_preferences"
+        />
+    <item
+        android:id="@+id/action_acercade"
+        android:title="Acerca de"
+        android:icon="@android:drawable/ic_menu_info_details"
+        />
+</menu>

@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8eaf88"
+    tools:context=".DetallActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginVertical="30dp"
+        android:text="Título: GameStore"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Descripción:"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esta aplicación móvil ha sido desarrollada como proyecto de la materia de Desarrollo Móvil Multiplataforma, utilizando Kotlin para crear una experiencia nativa en Android. La aplicación demuestra la implementación de una arquitectura robusta y eficiente, centrada en la gestión de datos y la presentación de información."
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Características Principales:"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Base de Datos Local SQLite:"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Implementación de una base de datos SQLite para el almacenamiento y gestión de datos de manera local, garantizando la privacidad y el acceso rápido a la información. La base de datos está compuesta por una única tabla con 8 campos."
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Patrón Maestro-Detalle:"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Utilización del patrón de diseño Maestro-Detalle para una navegación intuitiva y una visualización clara de la información."
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="RecyclerView:"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Implementación de un RecyclerView para la visualización eficiente de listas de datos, permitiendo una experiencia de usuario dinámica y optimizada."
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"/>
+
+</LinearLayout>
